@@ -1,21 +1,65 @@
 import React from 'react'
 import styled from 'styled-components';
 import ShopButton from '../../../general/button/ShopButton.tsx';
-import Image1 from '../../../../assests/images/bg-1.jpg';
+import Image1 from '../../../../assets/images/bg-1.jpg';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import "swiper/css";
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 function Spotlight() {
   return (
     <>
-        <SpotlightWrap bgimage={Image1}>
+    <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+    >
+        <SwiperSlide>
+          <SpotlightWrap bgimage={Image1}>
             <SpotContainer>
                 <SubHead>T-Shirt / Tops</SubHead>
                 <MainHead>Summer Value Pack</MainHead>
                 <SubPara>cool / colorful / comfy</SubPara>
                 <ShopButton />
             </SpotContainer>
-        </SpotlightWrap>
+          </SpotlightWrap>
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <SpotlightWrap bgimage={Image1}>
+            <SpotContainer>
+                <SubHead>T-Shirt / Tops</SubHead>
+                <MainHead>Summer Value Pack</MainHead>
+                <SubPara>cool / colorful / comfy</SubPara>
+                <ShopButton />
+            </SpotContainer>
+          </SpotlightWrap>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <SpotlightWrap bgimage={Image1}>
+            <SpotContainer>
+                <SubHead>T-Shirt / Tops</SubHead>
+                <MainHead>Summer Value Pack</MainHead>
+                <SubPara>cool / colorful / comfy</SubPara>
+                <ShopButton />
+            </SpotContainer>
+          </SpotlightWrap>
+        </SwiperSlide>
+      </Swiper>
     </>
-  )
+  );
 }
 
 export default Spotlight;

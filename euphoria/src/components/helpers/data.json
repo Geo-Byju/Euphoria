@@ -1,0 +1,70 @@
+{
+    "products": {
+        "Newarrival" : [
+            {
+                "id": 1,
+                "image": "assets/images/img-1.jpg",
+                "category" : "Knitted Joggers",
+                "gender" : "Men",
+                "type" : "Pants",
+                "rating" : "4.0",
+                "comment" : "100",
+                "price" : "$70.00",
+                "sideimage": [
+                    "assets/images/img-1.jpg",
+                    "assets/images/img-3.jpg",
+                    "assets/images/img-4.jpg",
+                    "assets/images/img-2.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "image": "assets/images/img-3.jpg",
+                "category": "Full Sleeve",
+                "gender": "Men",
+                "type": "Top",
+                "rating": "3.5",
+                "comment": "88",
+                "price": "$83.00",
+                "sideimage": [
+                    "assets/images/img-1.jpg",
+                    "assets/images/img-3.jpg",
+                    "assets/images/img-4.jpg",
+                    "assets/images/img-2.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "image": "assets/images/img-4.jpg",
+                "category": "Active T-Shirts",
+                "gender": "Men",
+                "type": "Shirt",
+                "rating": "4.5",
+                "comment": "90",
+                "price": "$95.00",
+                "sideimage": [
+                    "assets/images/img-1.jpg",
+                    "assets/images/img-3.jpg",
+                    "assets/images/img-4.jpg",
+                    "assets/images/img-2.jpg"
+                ]
+            },
+            {
+                "id": 4,
+                "image": "assets/images/img-2.jpg",
+                "category": "Urban Shirts",
+                "gender": "Women",
+                "type": "Top",
+                "rating": "4.8",
+                "comment": "120",
+                "price": "$100.00",
+                "sideimage": [
+                    "assets/images/img-1.jpg",
+                    "assets/images/img-3.jpg",
+                    "assets/images/img-4.jpg",
+                    "assets/images/img-2.jpg"
+                ]
+            }
+        ]
+    }
+}
