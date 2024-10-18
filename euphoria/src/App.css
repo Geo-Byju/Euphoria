@@ -37,57 +37,31 @@
   }
 }
 
-ol,
-ul {
-  list-style: none;
-}
-.active {
-  background-color: red;
-  color: #fff;
-}
-/* .swiper {
-  width: 100%;
-  height: 100%;
+@font-face {
+  font-family: "poppinsbold";
+  src: url("./assets/fonts/poppins-bold-webfont.woff") format("woff2"),
+    url("./assets/fonts/poppins-bold-webfont.woff2") format("woff");
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@font-face {
+  font-family: "poppinsmedium";
+  src: url("./assets/fonts/poppins-medium-webfont.woff") format("woff2"),
+    url("./assets/fonts/poppins-medium-webfont.woff2") format("woff");
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@font-face {
+  font-family: "poppinsregular";
+  src: url("./assets/fonts/poppins-regular-webfont.woff") format("woff2"),
+    url("./assets/fonts/poppins-regular-webfont.woff2") format("woff");
+}
+
+/* .slick-dots {
+  bottom: 10px !important;
 } */
-.wrapperhead {
-  max-width: 1780px;
-  width: 90%;
-  margin: 0 auto;
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  font-size: 10px !important;
 }
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+a {
+  text-decoration: none;
 }
