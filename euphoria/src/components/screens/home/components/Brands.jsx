@@ -103,7 +103,7 @@ const BrandContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 66%;
 `;
 const ImageContainer = styled.div`
   width: 168px;

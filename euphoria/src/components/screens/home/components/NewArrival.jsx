@@ -111,11 +111,11 @@ const SliderContainer = styled(Slider)`
 `;
 
 const ContentContainer = styled(Link)`
-  padding: 0 10px;
+  padding: 0 16px;
 `;
 
 const ImgContainer = styled.div`
-  width: 96%;
+  width: 90%;
   cursor: pointer;
 `;
 

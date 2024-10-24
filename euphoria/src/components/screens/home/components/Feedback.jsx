@@ -110,9 +110,8 @@
 
   const ContentMainContainer = styled.div`
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 30px 0;
+    gap: 30px;
+    padding: 30px 0px 150px 0px;
     @media all and (max-width: 980px) {
       flex-wrap: wrap;
     }

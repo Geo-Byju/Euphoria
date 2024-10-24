@@ -141,11 +141,16 @@ const Contents = styled.div`
   justify-content: space-between;
 `;
 const Right = styled.div``;
-const ArrowContainer = styled.div``;
+const ArrowContainer = styled.div`
+    background: #F6F6F6;
+    border-radius: 8px;
+    padding: 10px 20px;
+`;
 const Brands = styled.p`
   font-family: "poppinsmedium";
   font-size: 14px;
   color: #3c4242;
+  margin: 0;
   @media all and (max-width: 768px) {
     font-size: 12px;
   }
