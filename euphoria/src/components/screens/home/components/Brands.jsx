@@ -35,7 +35,7 @@ const Brands = () => {
           <BrandContainer>
             {brands.map((item) => (
               <ImageContainer key={item.id}>
-                <Image src={item.img} alt="" />
+                <Image src={item.img} alt="brands" />
               </ImageContainer>
             ))}
           </BrandContainer>

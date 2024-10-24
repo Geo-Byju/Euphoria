@@ -25,7 +25,7 @@ const SimilarProducts = () => {
                   />
                 </WishlistContainer>
                 <ImageContainer>
-                  <Image src={item.image} />
+                  <Image src={item.image} alt="similarproducts" />
                 </ImageContainer>
                 <Contents>
                   <Right>

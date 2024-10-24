@@ -49,7 +49,7 @@ const NewArrival = () => {
             {newArrivals.map((item) => (
               <ContentContainer key={item.id} to={`/singlepage/${item.id}`}>
                 <ImgContainer>
-                  <Image src={item.image} />
+                  <Image src={item.image} alt="Newarrival" />
                 </ImgContainer>
                 <Description>{item.category}</Description>
               </ContentContainer>

@@ -22,10 +22,11 @@ const LimeLight = () => {
                       require("../../../../../src/assets/images/wishlist.svg")
                         .default
                     }
+                    alt = "Wishlist"
                   />
                 </WishlistContainer>
                 <ImageContainer>
-                  <Image src={item.image} />
+                  <Image src={item.image} alt="brand"/>
                 </ImageContainer>
                 <Contents>
                   <Right>

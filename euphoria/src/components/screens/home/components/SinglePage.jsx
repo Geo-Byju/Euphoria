@@ -102,6 +102,7 @@ const SinglePage = () => {
                     require("../../../../assets/images/right-arrow-light.svg")
                       .default
                   }
+                  alt = "right-arrow"
                 />
               </RightArrowContainer>
               <CategoryContent>Women</CategoryContent>
@@ -111,6 +112,7 @@ const SinglePage = () => {
                     require("../../../../assets/images/right-arrow-light.svg")
                       .default
                   }
+                  alt = "right-arrow"
                 />
               </RightArrowContainer>
               <CategoryContent>Top</CategoryContent>
@@ -120,12 +122,14 @@ const SinglePage = () => {
               <RatingImgContainer>
                 <RatingImg
                   src={require("../../../../assets/images/review5.svg").default}
+                  alt = "rating-img"
                 />
               </RatingImgContainer>
               <RatingSpan>3.5</RatingSpan>
               <CommentImgContainer>
                 <CommentImg
                   src={require("../../../../assets/images/message.svg").default}
+                  alt = "comment-img"
                 />
               </CommentImgContainer>
               <CommentSpan>120 comment</CommentSpan>
@@ -140,6 +144,7 @@ const SinglePage = () => {
                       require("../../../../assets/images/arrow-right.svg")
                         .default
                     }
+                    alt = "right-arrow"
                   />
                 </RightArrowDiv>
               </SizeSubDiv>
@@ -186,6 +191,7 @@ const SinglePage = () => {
                       src={
                         require("../../../../assets/images/cart-1.svg").default
                       }
+                      alt = "cart-img"
                     />
                   </CartImgContainer>
                   <CartText>Add to cart</CartText>
@@ -205,6 +211,7 @@ const SinglePage = () => {
                         require("../../../../assets/images/credit card.svg")
                           .default
                       }
+                      alt = "payment-img"
                     />
                   </PaymentImgContainer>
                   <PaymentText>Secure payment</PaymentText>
@@ -216,6 +223,7 @@ const SinglePage = () => {
                         require("../../../../assets/images/Size&Fit.svg")
                           .default
                       }
+                      alt = "size-img"
                     />
                   </SizeImgContainer>
                   <PaymentText>Size & Fit</PaymentText>
@@ -228,6 +236,7 @@ const SinglePage = () => {
                       src={
                         require("../../../../assets/images/truck.svg").default
                       }
+                      alt = "shipping-img"
                     />
                   </ShippingsImgContainer>
                   <PaymentText>Free shipping</PaymentText>
@@ -239,6 +248,7 @@ const SinglePage = () => {
                         require("../../../../assets/images/Free-Shipping&Returns.svg")
                           .default
                       }
+                      alt = "returns-img"
                     />
                   </ReturnsImgContainer>
                   <PaymentText>Free Shipping & Returns</PaymentText>
@@ -258,7 +268,7 @@ const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <ArrowContainer onClick={onClick}>
-      <Arrow src={require("../../../../assets/images/arrowdown.svg").default} />
+      <Arrow src={require("../../../../assets/images/arrowdown.svg").default} alt = "arrowdown" />
     </ArrowContainer>
   );
 };
@@ -267,7 +277,7 @@ const SamplePrevArrow = (props) => {
   const { onClick } = props;
   return (
     <ArrowContainerup onClick={onClick}>
-      <Arrow src={require("../../../../assets/images/arrowup.svg").default} />
+      <Arrow src={require("../../../../assets/images/arrowup.svg").default} alt = "arrowup" />
     </ArrowContainerup>
   );
 };

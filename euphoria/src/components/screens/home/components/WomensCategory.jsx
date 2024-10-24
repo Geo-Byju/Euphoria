@@ -17,7 +17,7 @@ const WomensCategory = () => {
             {womenProducts.map((item) => (
               <Products key={item.id} to={`/singlepage/${item.id}`}>
                 <ImageContainer>
-                  <Image src={item.image} />
+                  <Image src={item.image} alt = "categorywomen"/>
                 </ImageContainer>
                 <Contents>
                   <Right>
@@ -30,6 +30,7 @@ const WomensCategory = () => {
                         require("../../../../assets/images/arrow-right.svg")
                           .default
                       }
+                      alt = "arrow-right"
                     />
                   </ArrowContainer>
                 </Contents>

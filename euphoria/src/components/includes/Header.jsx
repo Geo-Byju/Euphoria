@@ -41,6 +41,7 @@ const Header = () => {
                 <SearchImgContainer>
                   <SearchImage
                     src={require("../../assets/images/search.svg").default}
+                    alt="search"
                   />
                 </SearchImgContainer>
                 <StyledInput type="text" placeholder="Search" />
@@ -50,15 +51,17 @@ const Header = () => {
               <ImageContainer>
                 <Wishlist
                   src={require("../../assets/images/wishlist.svg").default}
+                  alt = "wishlist"
                 />
               </ImageContainer>
               <ImageContainer>
                 <Account
                   src={require("../../assets/images/account.svg").default}
+                  alt = "account"
                 />
               </ImageContainer>
               <ImageContainer>
-                <Cart src={require("../../assets/images/cart.svg").default} />
+                <Cart src={require("../../assets/images/cart.svg").default} alt="cart" />
               </ImageContainer>
             </RightContainer>
           </RightDiv>

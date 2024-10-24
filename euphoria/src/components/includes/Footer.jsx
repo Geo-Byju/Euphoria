@@ -73,6 +73,7 @@ const Footer = () => {
                   <ImageContainer>
                     <Image
                       src={require("../../assets/images/playstore.svg").default}
+                      alt = "playstore"
                     />
                   </ImageContainer>
                   <GooglePlay>
@@ -84,6 +85,7 @@ const Footer = () => {
                   <ImageContainer>
                     <Image
                       src={require("../../assets/images/phone.svg").default}
+                      alt = "phone"
                     />
                   </ImageContainer>
                   <GooglePlay>
@@ -101,6 +103,7 @@ const Footer = () => {
             <DropdownContainer>
               <DropdownImg
                 src={require("../../assets/images/arrow-down.svg").default}
+                alt="arrow-down"
               />
             </DropdownContainer>
           </Div>
