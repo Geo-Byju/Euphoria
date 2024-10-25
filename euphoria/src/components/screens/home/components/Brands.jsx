@@ -103,7 +103,10 @@ const BrandContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 66%;
+  width: 80%;
+  @media all and (max-width: 1400px) {
+    width: 90%;
+  }
 `;
 const ImageContainer = styled.div`
   width: 168px;
